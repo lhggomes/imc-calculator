@@ -1,4 +1,4 @@
-# Vagas Website
+# IMC Calculator
 
 This a simple IMC Calculator Done using JS, HTML and CSS. 
 
