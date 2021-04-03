@@ -5,6 +5,7 @@ This a simple IMC Calculator Done using JS, HTML and CSS.
 Usage Example
 ----------
 
+<img src="docs/example.png" alt="Example"/>
 
 
 Built With
