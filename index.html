@@ -11,20 +11,40 @@
 <body>
 <div class="block align-self-lg-center" id="main-div">
     <h3 id="titles-headers">Calculadora de IMC</h3>
+    <hr class="my-2">
+    <div id="padding-div">
+        <p>Informe seus dados para que seu IMC seja calculado:</p>
+        <form method="post">
+            <div class="input-group mb-3">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">Nome</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Nome Completo" aria-label="Nome Completo"
+                       aria-describedby="basic-addon2">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon">Peso</span>
+                </div>
+                <input type="number" class="form-control" placeholder="Peso em Kg" aria-label="Peso em Kg"
+                       aria-describedby="basic-addon2">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon3">Altura</span>
+                </div>
+                <input type="number" class="form-control" placeholder="Altura em cm" aria-label="Altura em cm   "
+                       aria-describedby="basic-addon2">
+            </div>
+            <button class="btn btn-success" id="confirm-btn">Calcular</button>
+        </form>
+        <h6>O Resultado do seu IMC é:</h6>
+        <textarea class="form-control" id="result-area" readonly rows="3"></textarea>
+    </div>
 
-    <form method="post">
-        <label class="form-label fw-bold">Qual é o seu peso?(kg)
-            <br>
-            <input type="number">
-        </label><br>
 
-        <label class="form-label fw-bold">Qual sua altura?(cm)
-            <br>
-            <input type="number">
-        </label><br>
 
-        <button class="btn btn-success">Calcular</button>
-    </form>
+
 </div>
 </body>
 </html>
