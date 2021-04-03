@@ -1,6 +1,12 @@
 #main-div{
-    margin: auto;
+    margin: 30px auto auto;
     width: 50%;
+    max-width: 400px;
     padding: 30px 10px 10px;
+    background-color: lightyellow;
+}
+
+#titles-headers{
     text-align: center;
+    margin-bottom: 35px;
 }
