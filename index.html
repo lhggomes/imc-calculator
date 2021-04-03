@@ -7,6 +7,7 @@
           rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
           crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="block align-self-lg-center" id="main-div">
@@ -19,22 +20,21 @@
                 <div class="input-group-append">
                     <span class="input-group-text" id="basic-addon2">Nome</span>
                 </div>
-                <input type="text" class="form-control" placeholder="Nome Completo" aria-label="Nome Completo"
-                       aria-describedby="basic-addon2">
+                <input type="text" class="form-control" placeholder="Nome Completo" id="nome">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-append">
                     <span class="input-group-text" id="basic-addon">Peso</span>
                 </div>
                 <input type="number" class="form-control" placeholder="Peso em Kg" aria-label="Peso em Kg"
-                       aria-describedby="basic-addon2">
+                       aria-describedby="basic-addon2" id="peso">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-append">
                     <span class="input-group-text" id="basic-addon3">Altura</span>
                 </div>
                 <input type="number" class="form-control" placeholder="Altura em cm" aria-label="Altura em cm   "
-                       aria-describedby="basic-addon2">
+                       aria-describedby="basic-addon2" id="altura">
             </div>
             <button class="btn btn-success" id="confirm-btn">Calcular</button>
         </form>
@@ -43,8 +43,7 @@
     </div>
 
 
-
-
 </div>
+<script src="js/main.js"></script>
 </body>
 </html>
